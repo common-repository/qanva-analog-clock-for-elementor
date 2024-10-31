@@ -1,0 +1,2 @@
+ /** adding class to select > chosen.js **/
+var $=jQuery;$(document).ready(function(){var checkforselect=setInterval(function(){$(document).find("[data-setting='qanva_ace_times']").addClass("chosen-select");if($(document).find("[data-setting='qanva_ace_times']").length>0){$(document).find("[data-setting='qanva_ace_times']").chosen({width:"100%"})}},300)})
